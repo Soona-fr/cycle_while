@@ -5,7 +5,7 @@ while position < len(my_list):
         print(my_list[position])
         position = position + 1
         continue
-    elif my_list[position] <= 0:
+    elif my_list[position] == 0:
         position = position + 1
         
 
